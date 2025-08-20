@@ -3,10 +3,10 @@ import pandas as pd
 import os
 import re
 
-csv_path = "lesson_planner/csv_exports/Plan.csv"
-shalg_path = "lesson_planner/csv_exports/Шалгуур.csv"
-criteria_path = "lesson_planner/csv_exports/Үр дүнгийн шалгуур.csv"
-level_path = "lesson_planner/csv_exports/Гүйцэтгэлийн түвшин.csv"
+csv_path = "Plan.csv"
+shalg_path = "Шалгуур.csv"
+criteria_path = "Үр дүнгийн шалгуур.csv"
+level_path = "Гүйцэтгэлийн түвшин.csv"
 
 st.set_page_config(page_title="Ээлжит хичээлийн төлөвлөлт", page_icon="📚", layout="wide")
 
